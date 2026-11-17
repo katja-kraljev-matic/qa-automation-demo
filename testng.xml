@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA automation demo">
+
+    <test name="UI tests (Selenium)">
+        <classes>
+            <class name="com.katja.qa.tests.LoginTests"/>
+            <class name="com.katja.qa.tests.CartTests"/>
+        </classes>
+    </test>
+
+    <test name="API tests (REST Assured)">
+        <classes>
+            <class name="com.katja.qa.api.PostsApiTests"/>
+        </classes>
+    </test>
+
+</suite>
